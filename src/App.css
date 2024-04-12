@@ -1,0 +1,31 @@
+.button{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(1, 1, 8);
+  background-color: rgb(192, 244, 225);
+  border: none;
+  width: 200px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.btn:hover{
+  background-color: rgb(58, 250, 186);
+}
+
+.icon{
+  position: absolute;
+  top: 35%;
+  left: 48%;
+  width: 60px;
+  height: 60px;
+}
